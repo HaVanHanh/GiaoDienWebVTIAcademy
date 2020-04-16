@@ -1,0 +1,36 @@
+/* Thư viện này để xử lí icon details company */
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+/**/
+
+@import "details-company.css";
+.topnav {
+    padding: 10px 0 10px 5px;
+    font-size: 120%;
+    /*in đậm*/
+    font-weight: 500;
+}
+
+
+/*Custom lại 1 vài thuộc tính trong menu top */
+
+@media only all {
+    .nav-link:hover {
+        color: rgb(161, 7, 7) !important;
+    }
+    .nav-link.disabled {
+        color: slategray;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .nav-link.active {
+        color: black;
+    }
+    .nav-link {
+        color: darkgray;
+    }
+    .navbar {
+        padding: 22px;
+    }
+}
